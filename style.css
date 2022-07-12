@@ -1,8 +1,12 @@
 body {
-  background: #DEF6F7;
+  background: #FCE3FF;
 }
 
-h1, h3 {
-  text-align: center
+h1, h2, h3 {
+  text-align: center;
 }
 
+.whoami img {
+height: 146px;
+width: 146px; 
+}
