@@ -1,12 +1,31 @@
-body {
-  background: #FCE3FF;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.whoami {
+  /* The image used */
+  background-image: url("./images/background.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1, h2, h3 {
   text-align: center;
 }
 
-.whoami img {
-height: 146px;
-width: 146px; 
+.icons {
+  margin-left: 450px;
+}
+
+img {
+  padding: 20px;
+  height: 120px;
+  width: 120px;
 }
